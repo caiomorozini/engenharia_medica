@@ -43,7 +43,7 @@ def normaliza(dados,metodo='linear',r=1):
     elif metodo=='sfm':
         x=dados-np.mean(dados)
         x=-x/(r*np.std(dados))
-        dadosnorm=1/(1+np.exp(x))        
+        dadosnorm=1/(1+np.exp(x))
     return dadosnorm
 
 def preselec(dados1,dados2,alfa):
