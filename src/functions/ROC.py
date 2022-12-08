@@ -39,7 +39,6 @@ def ROC(valores, rotulos):
 
 
 def AUC(VP, FP):
-    #https://www.youtube.com/watch?v=smNmTmeP-KA
 
     '''
     :param VP: Vetor de valores verdadeiro positivos (eixo y, bases maior e menor trapézio)
